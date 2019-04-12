@@ -1,0 +1,14 @@
+/media/francischung/Data/Source/Angular/udemy-ng-datingapp/DatingApp.API/bin/Debug/netcoreapp2.2/DatingApp.API.deps.json
+/media/francischung/Data/Source/Angular/udemy-ng-datingapp/DatingApp.API/bin/Debug/netcoreapp2.2/DatingApp.API.runtimeconfig.json
+/media/francischung/Data/Source/Angular/udemy-ng-datingapp/DatingApp.API/bin/Debug/netcoreapp2.2/DatingApp.API.runtimeconfig.dev.json
+/media/francischung/Data/Source/Angular/udemy-ng-datingapp/DatingApp.API/bin/Debug/netcoreapp2.2/DatingApp.API.dll
+/media/francischung/Data/Source/Angular/udemy-ng-datingapp/DatingApp.API/bin/Debug/netcoreapp2.2/DatingApp.API.pdb
+/media/francischung/Data/Source/Angular/udemy-ng-datingapp/DatingApp.API/obj/Debug/netcoreapp2.2/DatingApp.API.csprojAssemblyReference.cache
+/media/francischung/Data/Source/Angular/udemy-ng-datingapp/DatingApp.API/obj/Debug/netcoreapp2.2/DatingApp.API.csproj.CoreCompileInputs.cache
+/media/francischung/Data/Source/Angular/udemy-ng-datingapp/DatingApp.API/obj/Debug/netcoreapp2.2/DatingApp.API.RazorAssemblyInfo.cache
+/media/francischung/Data/Source/Angular/udemy-ng-datingapp/DatingApp.API/obj/Debug/netcoreapp2.2/DatingApp.API.RazorAssemblyInfo.cs
+/media/francischung/Data/Source/Angular/udemy-ng-datingapp/DatingApp.API/obj/Debug/netcoreapp2.2/DatingApp.API.AssemblyInfoInputs.cache
+/media/francischung/Data/Source/Angular/udemy-ng-datingapp/DatingApp.API/obj/Debug/netcoreapp2.2/DatingApp.API.AssemblyInfo.cs
+/media/francischung/Data/Source/Angular/udemy-ng-datingapp/DatingApp.API/obj/Debug/netcoreapp2.2/DatingApp.API.RazorTargetAssemblyInfo.cache
+/media/francischung/Data/Source/Angular/udemy-ng-datingapp/DatingApp.API/obj/Debug/netcoreapp2.2/DatingApp.API.dll
+/media/francischung/Data/Source/Angular/udemy-ng-datingapp/DatingApp.API/obj/Debug/netcoreapp2.2/DatingApp.API.pdb
