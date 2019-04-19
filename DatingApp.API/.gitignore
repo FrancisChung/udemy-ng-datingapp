@@ -2,3 +2,6 @@
 bin
 obj
 *.db
+bin/Debug/netcoreapp2.2/DatingApp.API.dll
+bin/Debug/netcoreapp2.2/DatingApp.API.pdb
+
