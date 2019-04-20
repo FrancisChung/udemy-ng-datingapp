@@ -16,6 +16,7 @@ import { MemberListComponent } from './member-list/member-list.component';
 import { ListsComponent } from './lists/lists.component';
 import { MessagesComponent } from './messages/messages.component';
 import { RouterModule } from '@angular/router';
+import { appRoutes } from './routes';
 
 @NgModule({
    declarations: [
@@ -33,7 +34,7 @@ import { RouterModule } from '@angular/router';
       HttpClientModule,
       FormsModule,
       BsDropdownModule.forRoot(),
-      RouterModule
+      RouterModule.forRoot(appRoutes)
    ],
    providers: [
       AuthService,
