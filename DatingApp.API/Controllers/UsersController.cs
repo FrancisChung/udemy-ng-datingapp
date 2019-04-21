@@ -17,7 +17,7 @@ namespace DatingApp.API.Controllers
         private readonly IDatingRepository _repo;
         public UsersController(IDatingRepository repo)
         {
-            this._repo = repo;
+            _repo = repo;
 
         }
 
