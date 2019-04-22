@@ -15,9 +15,11 @@ export class MemberDetailComponent implements OnInit {
   constructor(private userService: UserService, private alertify: AlertifyService, private route: ActivatedRoute)  { }
 
   ngOnInit() {
-    this.loadUser();
+    this.route.data.subscribe(data => {
+      this.user = data['user'];
+    });
   }
-
+/**
   loadUser() {
     this.userService.getUser(+this.route.snapshot.params.id).subscribe((user: User) => {
       this.user = user;
@@ -25,5 +27,5 @@ export class MemberDetailComponent implements OnInit {
       this.alertify.error(error);
     });
   }
-
+*/
 }
