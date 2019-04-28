@@ -98,3 +98,6 @@ https://cloudinary.com/
 
 Cloudinary .NET API:
 https://cloudinary.com/documentation/dotnet_image_upload
+
+ng2 File Upload:
+https://valor-software.com/ng2-file-upload/
