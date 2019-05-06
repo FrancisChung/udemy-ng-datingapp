@@ -25,22 +25,22 @@ export class PhotoEditorComponent implements OnInit {
     this.initializeUploader();
   }
 
-  fileOverBase(e:any):void {
+  fileOverBase(e: any): void {
     this.hasBaseDropZoneOver = e;
   }
 
   initializeUploader() {
     this.uploader = new FileUploader({
       url: this.baseURL + 'users/' + this.authService.decodedToken.nameid + '/photos',
-      authToken: 'Bearer ' + localStorage.getItem("token"),
+      authToken: 'Bearer ' + localStorage.getItem('token'),
       isHTML5: true,
       allowedFileType: ['image'],
       removeAfterUpload: true,
       autoUpload: false,
-      maxFileSize: 10 * 1024* 1024
+      maxFileSize: 10 * 1024 * 1024
     });
 
-    this.uploader.onAfterAddingFile = (file) => {file.withCredentials = false;}
+    this.uploader.onAfterAddingFile = (file) => {file.withCredentials = false; };
 
     this.uploader.onSuccessItem = (item, response, status, header) => {
       if (response) {
@@ -54,6 +54,6 @@ export class PhotoEditorComponent implements OnInit {
         };
         this.photos.push(photo);
       }
-    }
+    };
   }
 }
