@@ -44,7 +44,7 @@ namespace DatingApp.API.Controllers
             var createdUser = await _repo.Register(userToCreate, userDTO.Password);
             var userToReturn = _mapper.Map<UserForDetailedDTO>(createdUser); 
             
-            return CreatedAtRoute("GetUser", new {Controller="Users", id = createdUser.Id}, userToReturn);
+            return CreatedAtRoute("GetUser", new {controller="Users", id = createdUser.Id}, userToReturn);
         }
 
         [HttpPost("login")]
