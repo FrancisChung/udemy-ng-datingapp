@@ -31,7 +31,6 @@ angular language service
 angular2-switcher
 ```ext install infinity1207.angular2-switcher```
 
-~~auto rename tag~~
 
 bracket pair colorizer
 ```ext install CoenraadS.bracket-pair-colorizer```
